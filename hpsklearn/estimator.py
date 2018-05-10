@@ -11,12 +11,12 @@ from sklearn.decomposition import PCA
 try:
     from sklearn.model_selection import KFold, StratifiedKFold, LeaveOneOut, \
                                         ShuffleSplit, StratifiedShuffleSplit, \
-                                        PredefinedSplit
+                                        PredefinedSplit, RepeatedStratifiedKFold
 except ImportError:
     # sklearn.cross_validation is deprecated in version 0.18 of sklearn
     from sklearn.cross_validation import KFold, StratifiedKFold, LeaveOneOut, \
                                          ShuffleSplit, StratifiedShuffleSplit, \
-                                         PredefinedSplit
+                                         PredefinedSplit, RepeatedStratifiedKFold
 
 # For backwards compatibility with older versions of hyperopt.fmin
 import inspect
