@@ -13,7 +13,7 @@ or older
 
 Installation from a git clone using pip is supported:
 
-    git clone git@github.com:hyperopt/hyperopt-sklearn.git
+    git clone git@github.com:lstmemery/hyperopt-sklearn.git
     (cd hyperopt-sklearn && pip install -e .)
 
 ## Usage
